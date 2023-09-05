@@ -20,6 +20,10 @@
     font-size: 20px;
 }
 
+.btn-primary:hover {
+    background-color: darkred;
+}
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -115,6 +119,7 @@ main {
 
     margin-bottom: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 .section-description {
@@ -176,4 +181,72 @@ main {
     margin-top: 20px;
     color: #757575;
     font-size: 16px;
+}
+
+/* ............Resume........................... */
+.resume-content {
+    display: flex;
+    gap: 24px;
+
+}
+
+.resume-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-item .title {
+    color: #474747;
+    font-weight: 700;
+    margin-top: 20px;
+
+
+}
+
+.resume-item .sub-title {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.resume-item .description {
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+.resume-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*-------------------- contact ------------*/
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 40px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin: 0 10px;
 }
